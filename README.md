@@ -1,6 +1,6 @@
 # TgCrypto
 
-> Fast and Portable Cryptography Extension Library for Pyrogram
+> Fast and Portable Cryptography Extension Library for Hydrogram
 
 **TgCrypto** is a Cryptography Library written in C as a Python extension. It is designed to be portable, fast,
 easy to install and use. TgCrypto is intended for [Hydrogram](https://github.com/hydrogram/hydrogram) and implements the
