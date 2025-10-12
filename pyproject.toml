@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "TgCrypto"
 version = "1.2.5"
-description = "Fast and Portable Cryptography Extension Library for Pyrogram"
+description = "Fast and Portable Cryptography Extension Library for Hydrogram"
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.10"
 license = { text = "LGPLv3+" }
@@ -24,21 +24,3 @@ Community = "https://t.me/pyrogram"
 Source = "https://github.com/DaviisDev/tgcrypto"
 Documentation = "https://docs.pyrogram.org"
 Download = "https://github.com/DaviisDev/tgcrypto/releases/latest"
-
-[tool.setuptools]
-packages = ["tgcrypto"]
-
-[tool.setuptools.ext_modules]
-tgcrypto = { sources = [
-    "tgcrypto/tgcrypto.c",
-    "tgcrypto/aes256.c",
-    "tgcrypto/ige256.c",
-    "tgcrypto/ctr256.c",
-    "tgcrypto/cbc256.c"
-] }
-
-[tool.setuptools.package-dir]
-"" = "."
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
