@@ -1,15 +1,9 @@
 # TgCrypto
 
-> [!NOTE]
-> The project is no longer maintained or supported. Thanks for appreciating it.
-
-> [!NOTE]
-> The implementations of the algorithms presented in this repository are to be considered for educational purposes only.
-
 > Fast and Portable Cryptography Extension Library for Pyrogram
 
 **TgCrypto** is a Cryptography Library written in C as a Python extension. It is designed to be portable, fast,
-easy to install and use. TgCrypto is intended for [Pyrogram](https://github.com/pyrogram/pyrogram) and implements the
+easy to install and use. TgCrypto is intended for [Hydrogram](https://github.com/hydrogram/hydrogram) and implements the
 cryptographic algorithms Telegram requires, namely:
 
 - **`AES-256-IGE`** - used in [MTProto v2.0](https://core.telegram.org/mtproto).
@@ -156,7 +150,7 @@ print(data == cbc_decrypted)  # True
 
 ## Testing
 
-1. Clone this repository: `git clone https://github.com/pyrogram/tgcrypto`.
+1. Clone this repository: `git clone https://github.com/DaviisDev/tgcrypto`.
 2. Enter the directory: `cd tgcrypto`.
 3. Install `tox`: `pip3 install tox`
 4. Run tests: `tox`.
